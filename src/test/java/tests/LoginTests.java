@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -52,8 +53,35 @@ public void preCondition(){
 
     @Test
     public void loginSuccessNew(){
+
         app.user().initLogin();
         app.user().fillLoginForm("hatum.testing@gmail.com","Hatum21$");
+        app.user().submitLogin();
+
+        Assert.assertTrue(app.user().isAvatarPresent());
+    }
+
+    @Test
+    public void loginSuccessNewModel(){
+
+        User user = new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$");
+
+
+        app.user().initLogin();
+        app.user().fillLoginForm(user);
+        app.user().submitLogin();
+
+        Assert.assertTrue(app.user().isAvatarPresent());
+    }
+
+    @Test
+    public void loginSuccessNewModel2(){
+
+
+
+
+        app.user().initLogin();
+        app.user().fillLoginForm(new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$"));
         app.user().submitLogin();
 
         Assert.assertTrue(app.user().isAvatarPresent());

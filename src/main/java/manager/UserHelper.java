@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -22,6 +23,13 @@ public class UserHelper extends HelperBase{
         click((By.id("login")));
         pause(2000);
         type(By.id("password"),password);
+
+    }
+    public void fillLoginForm(User user) {
+        type(By.id("user"), user.getEmail());
+        click((By.id("login")));
+        pause(2000);
+        type(By.id("password"), user.getPassword());
 
     }
 
