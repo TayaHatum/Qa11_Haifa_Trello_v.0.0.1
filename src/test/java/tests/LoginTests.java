@@ -1,5 +1,6 @@
 package tests;
 
+import models.Auth;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -78,15 +79,23 @@ public void preCondition(){
     public void loginSuccessNewModel2(){
 
 
-
-
         app.user().initLogin();
         app.user().fillLoginForm(new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$"));
         app.user().submitLogin();
 
         Assert.assertTrue(app.user().isAvatarPresent());
     }
+    @Test
+    public void loginSuccessNewModelLombok(){
 
+        Auth auth = Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
+
+        app.user().initLogin();
+        app.user().fillLoginForm(auth);
+        app.user().submitLogin();
+
+        Assert.assertTrue(app.user().isAvatarPresent());
+    }
 @Test
     public void loginUnsuccessfulWithWrongEmail(){
     app.user().initLogin();
