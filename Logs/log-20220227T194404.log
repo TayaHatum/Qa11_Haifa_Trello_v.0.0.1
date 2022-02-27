@@ -1,0 +1,20 @@
+19:44:13  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:44:13  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:44:14  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:44:14  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:44:14  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:44:15  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:44:16  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+19:44:16  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+19:44:18  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+19:44:19  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+19:44:19  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+19:44:19  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+19:44:20  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='header-member-menu-button']
+19:44:27  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='header-member-menu-button']
+19:44:27  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id="header-member-menu-profile"]
+19:44:28  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id="header-member-menu-profile"]
+19:44:28  INFO  manager.MyListener - Start find element with 'locator' --->By.xpath: //a[text()='Atlassian profile']
+19:44:29  INFO  manager.MyListener - End of find element with 'locator' --->By.xpath: //a[text()='Atlassian profile']
+19:44:32  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-selector='profile-avatar']
+19:44:35  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-selector='profile-avatar']

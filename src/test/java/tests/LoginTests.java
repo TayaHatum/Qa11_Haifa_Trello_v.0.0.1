@@ -84,6 +84,7 @@ public void preCondition(){
         app.user().submitLogin();
 
         Assert.assertTrue(app.user().isAvatarPresent());
+
     }
     @Test
     public void loginSuccessNewModelLombok(){

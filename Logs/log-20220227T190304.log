@@ -1,0 +1,4 @@
+19:03:04  INFO  manager.ListenerNg - onTestStart
+19:03:04  INFO  manager.ListenerNg - startGoogle
+19:03:10  INFO  manager.ListenerNg - onTestSuccess
+19:03:10  INFO  manager.ListenerNg - tests.GoToGoogle

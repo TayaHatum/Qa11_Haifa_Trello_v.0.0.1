@@ -4,7 +4,10 @@ import models.Auth;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class UserHelper extends HelperBase{
@@ -14,8 +17,10 @@ public class UserHelper extends HelperBase{
     }
 
     public void initLogin(){
+
         if(wd.findElement(By.cssSelector("[href='/login']")).isDisplayed()) {
-            click(By.cssSelector("[href='/login']"));
+          click(By.cssSelector("[href='/login']"));
+           // click(By.cssSelector("[href='']"));
         }
     }
 
@@ -75,5 +80,39 @@ public class UserHelper extends HelperBase{
 
     public String textErrorWrongPasswordDisplaed() {
         return elementGetText(By.cssSelector("#login-error span"));
+    }
+
+    public void clickAvatarImg() {
+        click(By.cssSelector("[data-test-id='header-member-menu-button']"));
+    }
+
+    public void openProfileVisibility() {
+        click(By.cssSelector("[data-test-id=\"header-member-menu-profile\"]"));
+    }
+
+    public void navigateToAtlassianProfile() {
+        click(By.xpath("//a[text()='Atlassian profile']")); // -- 2 tabs
+        // go to second tab
+        ArrayList<String> tabs = new ArrayList<>( wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1));
+    }
+
+    public String getURL() {
+        return wd.getCurrentUrl();
+    }
+
+    public void initChangePhoto() {
+        //click(By.cssSelector("[data-test-selector='profile-avatar']"));
+
+        Actions actions = new Actions(wd);
+        actions.moveToElement(wd.findElement(By.cssSelector("[data-test-selector='profile-avatar']")))
+                .click().perform();
+        pause(3000);
+        click(By.xpath("//*[text()='Change profile photo']"));
+    }
+
+    public void uploadPhoto(String url) {
+        wd.findElement(By.cssSelector("#image-input")).sendKeys(url);
+        click(By.xpath("//button[.='Upload']"));
     }
 }

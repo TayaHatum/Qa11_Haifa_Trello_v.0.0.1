@@ -1,0 +1,10 @@
+19:03:46  INFO  manager.ListenerNg - onTestStart
+19:03:46  INFO  manager.ListenerNg - startGoogle
+19:03:50  INFO  manager.ListenerNg - onTestFailure
+19:03:50  INFO  manager.ListenerNg - org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=98.0.4758.109)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc9ec9ea906bbe92efe12c2bf775295a
