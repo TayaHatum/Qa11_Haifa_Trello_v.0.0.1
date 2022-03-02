@@ -21,6 +21,7 @@ public class AddNewBoardTests extends TestBase{
 
     @Test
     public void addNewBoardSuccess(){
+        //if boards >10 ---> delete boards
 
         Board board = Board.builder().title("Green").color("Green").build();
 

@@ -51,6 +51,7 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info("Screen with throwable  ---> " +screen);
 
         File tmp = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
         File screenshot = new File(screen);
 
         try{
