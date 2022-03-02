@@ -1,0 +1,25 @@
+18:21:32  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+18:21:42  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+18:21:42  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:21:42  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:21:42  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='']
+18:21:52  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"css selector","selector":"[href='']"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1c75:f679:4601:9de5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a869e7dba81452cc6083af4e36a9fd11
+*** Element info: {Using=css selector, value=[href='']}
+18:21:52  INFO  manager.MyListener - **************
+18:21:52  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='']"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1c75:f679:4601:9de5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a869e7dba81452cc6083af4e36a9fd11
+*** Element info: {Using=css selector, value=[href='']}
+18:21:52  INFO  manager.MyListener - **************

@@ -2,13 +2,15 @@ package manager;
 
 import models.Auth;
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class UserHelper extends HelperBase{
 
@@ -19,9 +21,44 @@ public class UserHelper extends HelperBase{
     public void initLogin(){
 
         if(wd.findElement(By.cssSelector("[href='/login']")).isDisplayed()) {
-          click(By.cssSelector("[href='/login']"));
+         click(By.cssSelector("[href='/login']"));
+
            // click(By.cssSelector("[href='']"));
         }
+    }
+    public void fillLoginFormTestTestsTests(String email, String password) {
+       // type(By.id("user"),email);
+
+      //  hatum.testing@gmail.com
+      //  sendKey("hatum.testing") + Shift +2 + sendKey("gmail.com")
+        WebElement inputEmail = wd.findElement(By.id("user")) ;
+        inputEmail.sendKeys("hatum.testing");
+        pause(6000);
+        inputEmail.sendKeys(Keys.chord(Keys.SHIFT,"2"));
+        pause(6000);
+        inputEmail.sendKeys(Keys.BACK_SPACE);
+        pause(6000);
+        inputEmail.sendKeys("gmail.com");
+        pause(6000);
+
+
+        click((By.id("login")));
+        pause(2000);
+        type(By.id("password"),password);
+
+    }
+
+
+    public void fillLoginFormTestTestTestJS(String email, String password) {
+        type(By.id("user"),email);
+        JavascriptExecutor js= (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#user').value='"+email+"';");
+        pause(2000);
+
+        click((By.id("login")));
+        pause(2000);
+        type(By.id("password"),password);
+
     }
 
     public void fillLoginForm(String email, String password) {
@@ -114,5 +151,21 @@ public class UserHelper extends HelperBase{
     public void uploadPhoto(String url) {
         wd.findElement(By.cssSelector("#image-input")).sendKeys(url);
         click(By.xpath("//button[.='Upload']"));
+    }
+    public boolean isLogginButtonPresent() {
+        return isElementPresent(By.cssSelector("[href='/login']"));
+    }
+
+    public boolean isAvatarChanged() {
+
+        //css-ygd4ga
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".css-ygd4ga"))));
+        return wd.findElement(By.xpath("//span[text()='Avatar added']")).getText().equals("Avatar added");
+    }
+
+    public void returnToTrelloFromAtlassian() {
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(0));
     }
 }

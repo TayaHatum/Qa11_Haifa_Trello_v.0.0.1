@@ -1,0 +1,16 @@
+17:51:01  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+17:51:11  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+17:51:11  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+17:51:11  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+17:51:11  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+17:51:11  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+17:51:11  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+17:51:12  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+17:51:12  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+17:51:12  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+17:51:15  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+17:51:15  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+17:51:15  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+17:51:15  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+17:51:16  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+17:51:22  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']

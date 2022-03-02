@@ -11,15 +11,18 @@ public class AddNewBoardTests extends TestBase{
     @BeforeMethod
     public void preCondition(){
         //login
-        app.user().initLogin();
-        app.user().fillLoginForm(Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build());
-        app.user().submitLogin();
+
+            app.user().initLogin();
+            app.user().fillLoginForm(Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build());
+            app.user().submitLogin();
+
     }
 
 
     @Test
     public void addNewBoardSuccess(){
-        Board board = Board.builder().title("Blue1").color("Blue").build();
+
+        Board board = Board.builder().title("Green").color("Green").build();
 
         app.board().initCteationBoard();
         app.board().fillBoardCreationForm(board);

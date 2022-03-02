@@ -1,11 +1,13 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MyListener extends AbstractWebDriverEventListener {
 
@@ -44,6 +46,18 @@ public class MyListener extends AbstractWebDriverEventListener {
 //        logger.info("**************");
 //        logger.info("We have a throwable ---> " +throwable.getSuppressed().toString()); //We have a throwable ---> [Ljava.lang.Throwable;@a79480c
 //        logger.info("**************");
+        int index = (int)(System.currentTimeMillis()/1000)%3600;
+        String screen = "src/test/screenshots/screenshot-"+index+".png";
+        logger.info("Screen with throwable  ---> " +screen);
+
+        File tmp = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(screen);
+
+        try{
+            Files.copy(tmp,screenshot);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
 
     }
 }

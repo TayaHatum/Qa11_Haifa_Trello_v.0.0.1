@@ -1,0 +1,34 @@
+19:25:40  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:25:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:25:50  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:25:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:25:50  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:25:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:25:50  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:25:52  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:25:58  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+19:25:58  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+19:26:01  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+19:26:01  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+19:26:01  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+19:26:11  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"css selector","selector":"#login-submit"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1c75:f679:4601:9de5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:64658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3baa5a0522a62e35a393a42c0fbf59e5
+*** Element info: {Using=css selector, value=#login-submit}
+19:26:11  INFO  manager.MyListener - **************
+19:26:11  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login-submit"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1c75:f679:4601:9de5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:64658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3baa5a0522a62e35a393a42c0fbf59e5
+*** Element info: {Using=css selector, value=#login-submit}
+19:26:11  INFO  manager.MyListener - **************
+19:26:11  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-1571.png
