@@ -1,0 +1,16 @@
+18:35:45  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:35:45  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+18:35:47  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+18:35:47  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+18:35:47  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+18:35:49  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+18:35:51  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+18:35:51  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+18:35:51  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+18:35:51  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+18:35:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li

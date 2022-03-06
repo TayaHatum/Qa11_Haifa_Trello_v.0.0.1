@@ -10,10 +10,10 @@ import org.testng.annotations.Test;
 public class GoToGoogle {
 
     WebDriver wd;
-    @Test
+    @Test (enabled = false)
     public void startGoogle(){
 
         wd = new ChromeDriver();
-        wd.navigate().to("");
+        wd.navigate().to("https://google.com");
     }
 }

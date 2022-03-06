@@ -1,25 +1,24 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Auth;
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class LoginTests extends TestBase{
+public class LoginTests extends TestBase {
 
-@BeforeMethod
-public void preCondition(){
-    if(app.user().isLogged()){
-        app.user().logout();
+    @BeforeMethod
+    public void preCondition() {
+        if (app.user().isLogged()) {
+            app.user().logout();
+        }
     }
-}
 
-   // @Test
-  //  public void loginSuccess() throws InterruptedException {
+    // @Test
+    //  public void loginSuccess() throws InterruptedException {
 //
 //
 //        // open form
@@ -50,42 +49,47 @@ public void preCondition(){
 //
 //        Assert.assertTrue(wd.findElements(By.cssSelector("[aria-label='Open member menu']")).size()>0);
 //        Assert.assertTrue(wd.findElement(By.cssSelector("[aria-label='Open member menu']")).isDisplayed());
-  //  }
-
-    @Test
-    public void loginSuccessTestTesttestJS(){
-
-        app.user().initLogin();
-        app.user().fillLoginFormTestTestTestJS("hatum.testing@gmail.com","Hatum21$");
-        app.user().submitLogin();
-
-        Assert.assertTrue(app.user().isAvatarPresent());
-    }
-    @Test
-    public void loginSuccessTestTesttest(){
-
-        app.user().initLogin();
-        app.user().fillLoginFormTestTestsTests("hatum.testing@gmail.com","Hatum21$");
-        app.user().submitLogin();
-
-        Assert.assertTrue(app.user().isAvatarPresent());
-    }
+    //  }
 
 
     @Test
-    public void loginSuccessNew(){
+    public void loginSuccessTestTesttestJS() {
 
         app.user().initLogin();
-        app.user().fillLoginForm("hatum.testing@gmail.com","Hatum21$");
+        app.user().fillLoginFormTestTestTestJS("hatum.testing@gmail.com", "Hatum21$");
         app.user().submitLogin();
 
         Assert.assertTrue(app.user().isAvatarPresent());
     }
 
     @Test
-    public void loginSuccessNewModel(){
+    public void loginSuccessTestTesttest() {
 
-        User user = new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$");
+        app.user().initLogin();
+        app.user().fillLoginFormTestTestsTests("hatum.testing@gmail.com", "Hatum21$");
+        app.user().submitLogin();
+
+        Assert.assertTrue(app.user().isAvatarPresent());
+    }
+
+
+    @Test (dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNew(String email,String password) {
+        logger.info("Test starts with email :" +email+ "and password :" +password);
+
+        app.user().initLogin();
+        //app.user().fillLoginForm("hatum.testing@gmail.com", "Hatum21$");
+        app.user().fillLoginForm(email,password);
+        app.user().submitLogin();
+
+        Assert.assertTrue(app.user().isAvatarPresent());
+    }
+
+    @Test (dataProvider = "loginValidDataUser",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNewModel(User user) {
+
+        logger.info("Test starts with data -->" +user );
+        //User user = new User().withEmail("hatum.testing@gmail.com").withPassword("Hatum21$");
 
 
         app.user().initLogin();
@@ -96,7 +100,7 @@ public void preCondition(){
     }
 
     @Test
-    public void loginSuccessNewModel2(){
+    public void loginSuccessNewModel2() {
 
 
         app.user().initLogin();
@@ -106,8 +110,9 @@ public void preCondition(){
         Assert.assertTrue(app.user().isAvatarPresent());
 
     }
+
     @Test
-    public void loginSuccessNewModelLombok(){
+    public void loginSuccessNewModelLombok() {
 
         Auth auth = Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
 
@@ -117,31 +122,48 @@ public void preCondition(){
 
         Assert.assertTrue(app.user().isAvatarPresent());
     }
-@Test
-    public void loginUnsuccessfulWithWrongEmail(){
-    app.user().initLogin();
-    app.user().fillLoginFormWrongEmail("hatum.testinggmail.com","Hatum21$");
-    app.user().submitLoginWithError();
-    app.user().pause(1000);
+
+    @Test
+    public void loginUnsuccessfulWithWrongEmail() {
+        app.user().initLogin();
+        app.user().fillLoginFormWrongEmail("hatum.testinggmail.com", "Hatum21$");
+        app.user().submitLoginWithError();
+        app.user().pause(1000);
 
 
-    Assert.assertEquals(app.user().textErrorMessage(),"There isn't an account for this username");
+        Assert.assertEquals(app.user().textErrorMessage(), "There isn't an account for this username");
 
-}
+    }
 
-@Test
-    public void loginUnsuccessfulWithWrongPassword(){
+    @Test
+    public void loginUnsuccessfulWithWrongPassword() {
 
-    app.user().initLogin();
-    app.user().fillLoginForm("hatum.testing@gmail.com","Hat");
-    app.user().submitLogin();
+        app.user().initLogin();
+        app.user().fillLoginForm("hatum.testing@gmail.com", "Hat");
+        app.user().submitLogin();
 
-    app.user().pause(1000);
-    Assert.assertTrue(app.user().textErrorWrongPasswordDisplaed().contains("Incorrect email address and / or password"));
-    // hatum.testing@gmail.com  // Hat
+        app.user().pause(1000);
+        Assert.assertTrue(app.user().textErrorWrongPasswordDisplaed().contains("Incorrect email address and / or password"));
+        // hatum.testing@gmail.com  // Hat
 
-    //Incorrect email address and / or password. If you recently migrated your Trello account to an Atlassian account,
-    // you will need to use your Atlassian account password. Alternatively, you can get help logging in.
-}
+        //Incorrect email address and / or password. If you recently migrated your Trello account to an Atlassian account,
+        // you will need to use your Atlassian account password. Alternatively, you can get help logging in.
+    }
+
+
+
+
+//
+//    @Test (dataProvider = "loginValiData",dataProviderClass = MyDataProvider.class)
+//    public void loginTest2Positive(String email,String password){
+//
+//        User user = new User().withPassword(password).withEmail(email);
+//
+//        app.getUser(). openLoginRegistrationForm();
+//        app.getUser().fillLoginRegistrationForm(user);
+//        app.getUser().submitLogin();
+//        app.getUser().pause(5000);
+//        Assert.assertTrue(app.getUser().isLogged());
+//    }
 
 }

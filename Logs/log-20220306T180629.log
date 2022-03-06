@@ -1,0 +1,14 @@
+18:06:38  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+18:06:38  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+18:06:40  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+18:06:40  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+18:06:40  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+18:06:43  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+18:06:44  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+18:06:44  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+18:06:44  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
