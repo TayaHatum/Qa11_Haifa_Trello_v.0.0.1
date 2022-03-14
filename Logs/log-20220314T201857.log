@@ -1,0 +1,79 @@
+20:19:08  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:18  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:18  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:18  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:18  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:18  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:18  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+20:19:19  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+20:19:19  INFO  manager.MyListener - We have a throwable ---> Element <input id="user" class="form-field" name="user" type="text"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c53:bff7:d982:3921%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [786c5b78-893e-4b48-84f9-836d35bdd594, clickElement {id=2d132241-8650-45ee-85a4-45d74fe71a2e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:62294, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2976, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:62294/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (786c5b78-893e-4b48-84f9-836d35bdd594)] -> id: user]
+Session ID: 786c5b78-893e-4b48-84f9-836d35bdd594
+20:19:19  INFO  manager.MyListener - **************
+20:19:19  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.ElementNotInteractableException: Element <input id="user" class="form-field" name="user" type="text"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c53:bff7:d982:3921%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [786c5b78-893e-4b48-84f9-836d35bdd594, clickElement {id=2d132241-8650-45ee-85a4-45d74fe71a2e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:62294, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2976, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:62294/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (786c5b78-893e-4b48-84f9-836d35bdd594)] -> id: user]
+Session ID: 786c5b78-893e-4b48-84f9-836d35bdd594
+20:19:19  INFO  manager.MyListener - **************
+20:19:19  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-1159.png
+20:19:19  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:29  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:29  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:29  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:29  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+20:19:29  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+20:19:32  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+20:19:32  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+20:19:37  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+20:19:37  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+20:19:37  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+20:19:37  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+20:19:37  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:44  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+20:19:44  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+20:19:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+20:19:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+20:19:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-tile']
+20:19:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-tile']
+20:19:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-title-input']
+20:19:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-title-input']
+20:19:55  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: button[title='Green']
+20:19:55  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: button[title='Green']
+20:19:55  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='create-board-submit-button']
+20:19:55  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='create-board-submit-button']
+20:19:58  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Back to home']
+20:19:58  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Back to home']
+20:19:58  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(3) li
+20:19:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(3) li
+20:19:59  INFO  tests.TestBase - Count of boards before test was :3
+20:19:59  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .board-tile-details
+20:19:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .board-tile-details
+20:19:59  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-show-sidebar
+20:19:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-show-sidebar
+20:20:00  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-open-more
+20:20:00  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-open-more
+20:20:00  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-close-board
+20:20:00  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-close-board
+20:20:00  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-confirm
+20:20:00  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-confirm
+20:20:01  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-big-message']
+20:20:01  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-big-message']
+20:20:01  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-button']
+20:20:01  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-button']
+20:20:02  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']
+20:20:02  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']
+20:20:02  INFO  manager.MyListener - Start find element with 'locator' --->By.xpath: //h3[text()='YOUR WORKSPACES']
+20:20:03  INFO  manager.MyListener - End of find element with 'locator' --->By.xpath: //h3[text()='YOUR WORKSPACES']
+20:20:03  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+20:20:03  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+20:20:03  INFO  tests.TestBase - Count of boards after test was :2

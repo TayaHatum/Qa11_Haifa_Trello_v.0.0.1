@@ -1,0 +1,4 @@
+20:13:36  INFO  manager.ListenerNg - onTestStart
+20:13:36  INFO  manager.ListenerNg - startGoogle
+20:13:37  INFO  manager.ListenerNg - onTestFailure
+20:13:37  INFO  manager.ListenerNg - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.

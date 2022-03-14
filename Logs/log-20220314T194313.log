@@ -1,0 +1,60 @@
+19:43:25  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:36  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:36  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:36  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:36  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:36  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:36  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:43:37  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:43:37  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+19:43:37  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+19:43:40  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+19:43:41  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+19:43:41  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+19:43:41  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+19:43:41  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:50  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:50  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:50  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:43:51  INFO  manager.MyListener - Start find element with 'locator' --->By.xpath: //*[text()='Log out']
+19:43:51  INFO  manager.MyListener - End of find element with 'locator' --->By.xpath: //*[text()='Log out']
+19:43:53  INFO  manager.MyListener - Start find element with 'locator' --->By.id: logout-submit
+19:43:53  INFO  manager.MyListener - End of find element with 'locator' --->By.id: logout-submit
+19:43:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:59  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:59  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:43:59  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:44:00  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:44:02  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+19:44:02  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+19:44:06  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+19:44:06  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+19:44:06  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+19:44:06  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+19:44:07  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:44:15  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:44:15  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:44:25  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c53:bff7:d982:3921%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [335886e69b825ceb8ab0c13a2163bde7, findElement {using=css selector, value=[href='/login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 335886e69b825ceb8ab0c13a2163bde7
+19:44:25  INFO  manager.MyListener - **************
+19:44:25  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c53:bff7:d982:3921%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [335886e69b825ceb8ab0c13a2163bde7, findElement {using=css selector, value=[href='/login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 335886e69b825ceb8ab0c13a2163bde7
+19:44:25  INFO  manager.MyListener - **************
+19:44:25  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2665.png

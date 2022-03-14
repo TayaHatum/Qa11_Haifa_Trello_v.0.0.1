@@ -62,7 +62,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.user().isAvatarPresent());
     }
 
-    @Test
+    @Test (enabled = false)
     public void loginSuccessTestTesttest() {
 
         app.user().initLogin();
@@ -73,7 +73,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test (dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class)
+    @Test (dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
     public void loginSuccessNew(String email,String password) {
         logger.info("Test starts with email :" +email+ "and password :" +password);
 
@@ -85,7 +85,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.user().isAvatarPresent());
     }
 
-    @Test (dataProvider = "loginValidDataUser",dataProviderClass = MyDataProvider.class)
+    @Test (dataProvider = "loginValidDataUser",dataProviderClass = MyDataProvider.class,enabled = false)
     public void loginSuccessNewModel(User user) {
 
         logger.info("Test starts with data -->" +user );
@@ -111,7 +111,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test (enabled = false)
     public void loginSuccessNewModelLombok() {
 
         Auth auth = Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build();
@@ -123,7 +123,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.user().isAvatarPresent());
     }
 
-    @Test
+    @Test (enabled = false)
     public void loginUnsuccessfulWithWrongEmail() {
         app.user().initLogin();
         app.user().fillLoginFormWrongEmail("hatum.testinggmail.com", "Hatum21$");
@@ -135,7 +135,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test (enabled = false)
     public void loginUnsuccessfulWithWrongPassword() {
 
         app.user().initLogin();
