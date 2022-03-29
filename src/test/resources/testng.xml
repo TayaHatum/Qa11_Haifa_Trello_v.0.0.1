@@ -2,9 +2,17 @@
 
 <suite name="Reg" verbose="1" >
     <test name="Reg" >
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+
         <classes>
             <class name="tests.LoginTests" />
             <class name="tests.AddNewBoardTests" />
+            <class name="tests.DeleteBoard"/>
+            <class name="tests.ChangeAvatarTest"/>
         </classes>
     </test>
 

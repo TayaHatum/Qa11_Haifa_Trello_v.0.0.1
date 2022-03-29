@@ -1,0 +1,261 @@
+22:32:42  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:32:52  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:32:52  INFO  tests.TestBase - Test starts with email :hatum.testing@gmail.comand password :Hatum21$
+22:32:52  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:32:52  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:32:52  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:32:52  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:32:52  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:32:54  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:32:54  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:32:54  INFO  manager.MyListener - **************
+22:32:54  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:32:54  INFO  manager.MyListener - **************
+22:32:54  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-1974.png
+22:32:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:04  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:04  INFO  tests.TestBase - Test starts with email :hatum.testing@gmail.comand password :Hatum21$
+22:33:04  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:04  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:05  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:05  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:05  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:05  INFO  manager.MyListener - **************
+22:33:05  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:05  INFO  manager.MyListener - **************
+22:33:05  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-1985.png
+22:33:05  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:15  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:15  INFO  tests.TestBase - Test starts with email :hatum.testing@gmail.comand password :Hatum21$
+22:33:15  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:15  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:15  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:15  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:15  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:15  INFO  manager.MyListener - **************
+22:33:15  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:15  INFO  manager.MyListener - **************
+22:33:15  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-1995.png
+22:33:16  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:26  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:26  INFO  tests.TestBase - Test starts with data -->User{email='hatum.testing@gmail.com', password='Hatum21$'}
+22:33:26  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:26  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:26  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:26  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:26  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:26  INFO  manager.MyListener - **************
+22:33:26  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:26  INFO  manager.MyListener - **************
+22:33:26  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2006.png
+22:33:26  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:36  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:36  INFO  tests.TestBase - Test starts with data -->User{email='hatum.testing@gmail.com', password='Hatum21$'}
+22:33:36  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:36  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:36  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:36  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:36  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:36  INFO  manager.MyListener - **************
+22:33:36  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:36  INFO  manager.MyListener - **************
+22:33:36  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2016.png
+22:33:37  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:47  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:47  INFO  tests.TestBase - Test starts with data -->User{email='hatum.testing@gmail.com', password='Hatum21$'}
+22:33:47  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:47  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:47  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:47  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:47  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:47  INFO  manager.MyListener - **************
+22:33:47  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:47  INFO  manager.MyListener - **************
+22:33:47  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2027.png
+22:33:48  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:58  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:33:58  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:58  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:33:58  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:33:58  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:33:58  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:58  INFO  manager.MyListener - **************
+22:33:58  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:33:58  INFO  manager.MyListener - **************
+22:33:58  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2038.png
+22:33:58  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:08  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:08  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:08  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:08  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:34:08  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:34:08  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:08  INFO  manager.MyListener - **************
+22:34:08  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:08  INFO  manager.MyListener - **************
+22:34:08  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2048.png
+22:34:09  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:19  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:19  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:19  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:19  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:34:19  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:34:19  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:19  INFO  manager.MyListener - **************
+22:34:19  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:19  INFO  manager.MyListener - **************
+22:34:19  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2059.png
+22:34:19  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:29  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:29  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:29  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:29  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:34:29  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:34:29  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:29  INFO  manager.MyListener - **************
+22:34:29  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:29  INFO  manager.MyListener - **************
+22:34:29  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2069.png
+22:34:30  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:40  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+22:34:40  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:40  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:34:40  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+22:34:40  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+22:34:40  INFO  manager.MyListener - We have a throwable ---> unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:40  INFO  manager.MyListener - **************
+22:34:40  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.WebDriverException: unknown error: Cannot construct KeyEvent from non-typeable key
+  (Session info: chrome=99.0.4844.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:51212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94f013ed5638e2c27c1a899d7d3c54cb
+22:34:40  INFO  manager.MyListener - **************
+22:34:40  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-2080.png

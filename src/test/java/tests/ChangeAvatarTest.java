@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class ChangeAvatarTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
        if(app.user().isLogginButtonPresent()) {
            app.user().initLogin();
@@ -16,7 +16,7 @@ public class ChangeAvatarTest extends TestBase{
        }
     }
 
-    @Test
+    @Test (groups = {"web"})
     public void changeAvatarTest(){
         app.user().clickAvatarImg();
         app.user().openProfileVisibility();

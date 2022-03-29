@@ -12,15 +12,15 @@ public class TestBase {
 
  Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void setUp(){
         app.init();
 
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown(){
-       //app.stop();
+        app.stop();
     }
 
 

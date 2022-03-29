@@ -77,8 +77,9 @@ public class UserHelper extends HelperBase{
     }
     public void fillLoginForm(Auth auth) {
         type(By.id("user"), auth.getEmail());
+        pause(500);
         click((By.id("login")));
-        pause(2000);
+        pause(1000);
         type(By.id("password"), auth.getPassword());
 
     }
@@ -157,7 +158,7 @@ public class UserHelper extends HelperBase{
     }
 
     public boolean isAvatarChanged() {
-
+pause(2000);
         //css-ygd4ga
         new WebDriverWait(wd,10)
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".css-ygd4ga"))));
@@ -166,6 +167,8 @@ public class UserHelper extends HelperBase{
 
     public void returnToTrelloFromAtlassian() {
         List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+
         wd.switchTo().window(tabs.get(0));
+
     }
 }

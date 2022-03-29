@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:7.5'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.1.2'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
@@ -29,6 +29,13 @@ test {
 task reg(type: Test){
 
     useTestNG{
+
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+
         def suite = System.getProperty('suite', '')
         if (suite.equals('quick')) {
             suites 'src/test/resources/quick.xml'

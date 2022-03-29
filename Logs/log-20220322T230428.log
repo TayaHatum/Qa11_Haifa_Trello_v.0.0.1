@@ -1,0 +1,29 @@
+23:04:34  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+23:04:34  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+23:04:34  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+23:04:34  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+23:04:34  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+23:06:28  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+23:06:28  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+23:06:29  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+23:06:30  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+23:06:33  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+23:06:33  INFO  manager.MyListener - We have a throwable ---> stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 917b19794023a34e0b946b714ba6bd8d
+23:06:33  INFO  manager.MyListener - **************
+23:06:33  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.83, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 917b19794023a34e0b946b714ba6bd8d
+23:06:33  INFO  manager.MyListener - **************
+23:06:33  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-393.png

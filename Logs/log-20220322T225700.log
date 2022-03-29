@@ -1,0 +1,7 @@
+22:57:07  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+22:57:07  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user

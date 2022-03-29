@@ -8,10 +8,8 @@ import org.testng.annotations.Test;
 
 public class AddNewBoardTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
-        //login
-
             app.user().initLogin();
             app.user().fillLoginForm(Auth.builder().email("hatum.testing@gmail.com").password("Hatum21$").build());
             app.user().submitLogin();
@@ -19,10 +17,8 @@ public class AddNewBoardTests extends TestBase{
     }
 
 
-    @Test
+    @Test (groups = {"web","smoke"})
     public void addNewBoardSuccess(){
-        //if boards >10 ---> delete boards
-
         Board board = Board.builder().title("Green").color("Green").build();
 
         app.board().initCteationBoard();

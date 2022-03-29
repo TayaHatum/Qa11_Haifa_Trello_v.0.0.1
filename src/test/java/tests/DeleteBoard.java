@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class DeleteBoard extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.user().isLogginButtonPresent()) {
             app.user().initLogin();
@@ -18,7 +18,7 @@ public class DeleteBoard extends TestBase{
         app.board().providerBoards();
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void deleteOneBoard(){
         int countBoardsBefore = app.board().getBoardCountDownList();
         logger.info("Count of boards before test was :" +countBoardsBefore);
@@ -27,6 +27,7 @@ public class DeleteBoard extends TestBase{
         app.board().openSideBoardMenu();
         app.board().openMore();
         app.board().closeBoard();
+        app.board().pause(2000);
         int countBoardsAfter = app.board().getBoardCountUpList();
         logger.info("Count of boards after test was :" +countBoardsAfter);
 

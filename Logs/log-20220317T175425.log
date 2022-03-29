@@ -1,0 +1,50 @@
+17:54:34  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:34  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:34  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:34  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:34  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:34  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+17:54:35  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+17:54:36  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+17:54:36  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+17:54:36  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+17:54:38  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+17:54:39  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+17:54:40  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: #login-submit
+17:54:40  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: #login-submit
+17:54:40  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+17:54:46  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+17:54:46  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-tile']
+17:54:47  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-tile']
+17:54:47  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-title-input']
+17:54:47  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id ='create-board-title-input']
+17:54:48  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: button[title='Green']
+17:54:48  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: button[title='Green']
+17:54:49  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='create-board-submit-button']
+17:54:49  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='create-board-submit-button']
+17:54:51  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Back to home']
+17:54:51  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Back to home']
+17:54:51  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(3) li
+17:54:52  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(3) li
+17:54:52  INFO  tests.TestBase - Count of boards before test was :4
+17:54:52  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .board-tile-details
+17:54:52  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .board-tile-details
+17:54:52  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-show-sidebar
+17:54:53  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-show-sidebar
+17:54:53  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-open-more
+17:54:53  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-open-more
+17:54:53  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-close-board
+17:54:53  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-close-board
+17:54:53  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .js-confirm
+17:54:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .js-confirm
+17:54:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-big-message']
+17:54:54  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-big-message']
+17:54:54  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-button']
+17:54:55  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-button']
+17:54:55  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']
+17:54:55  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [data-test-id='close-board-delete-board-confirm-button']
+17:54:55  INFO  manager.MyListener - Start find element with 'locator' --->By.xpath: //h3[text()='YOUR WORKSPACES']
+17:54:56  INFO  manager.MyListener - End of find element with 'locator' --->By.xpath: //h3[text()='YOUR WORKSPACES']
+17:54:56  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+17:54:56  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: .content-all-boards>div>div:nth-child(2) li
+17:54:56  INFO  tests.TestBase - Count of boards after test was :3

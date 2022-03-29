@@ -1,0 +1,56 @@
+19:13:58  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:14:08  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [aria-label='Open member menu']
+19:14:08  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:08  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:08  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:08  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:08  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:14:09  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:14:09  INFO  manager.MyListener - We have a throwable ---> Element <input id="user" class="form-field" name="user" type="text"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8f9e7d83-6285-4de2-a008-54ef7545a97b, clickElement {id=c380efcb-1006-4cad-9b17-398143914f38}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:63221, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2680, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:63221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (8f9e7d83-6285-4de2-a008-54ef7545a97b)] -> id: user]
+Session ID: 8f9e7d83-6285-4de2-a008-54ef7545a97b
+19:14:09  INFO  manager.MyListener - **************
+19:14:09  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.ElementNotInteractableException: Element <input id="user" class="form-field" name="user" type="text"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8f9e7d83-6285-4de2-a008-54ef7545a97b, clickElement {id=c380efcb-1006-4cad-9b17-398143914f38}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:63221, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2680, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:63221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (8f9e7d83-6285-4de2-a008-54ef7545a97b)] -> id: user]
+Session ID: 8f9e7d83-6285-4de2-a008-54ef7545a97b
+19:14:09  INFO  manager.MyListener - **************
+19:14:09  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-849.png
+19:14:09  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:09  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:09  INFO  manager.MyListener - Start find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:09  INFO  manager.MyListener - End of find element with 'locator' --->By.cssSelector: [href='/login']
+19:14:09  INFO  manager.MyListener - Start find element with 'locator' --->By.id: user
+19:14:09  INFO  manager.MyListener - End of find element with 'locator' --->By.id: user
+19:14:10  INFO  manager.MyListener - Start find element with 'locator' --->By.id: login
+19:14:10  INFO  manager.MyListener - End of find element with 'locator' --->By.id: login
+19:14:12  INFO  manager.MyListener - Start find element with 'locator' --->By.id: password
+19:14:13  INFO  manager.MyListener - End of find element with 'locator' --->By.id: password
+19:14:13  INFO  manager.MyListener - We have a throwable ---> Element <input id="password" class="css-1us7xzt" name="password" type="password"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8f9e7d83-6285-4de2-a008-54ef7545a97b, clickElement {id=3807eed0-6bcf-4d5a-8bfb-0c86cf19353d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:63221, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2680, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:63221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (8f9e7d83-6285-4de2-a008-54ef7545a97b)] -> id: password]
+Session ID: 8f9e7d83-6285-4de2-a008-54ef7545a97b
+19:14:13  INFO  manager.MyListener - **************
+19:14:13  INFO  manager.MyListener - We have a throwable ---> org.openqa.selenium.ElementNotInteractableException: Element <input id="password" class="css-1us7xzt" name="password" type="password"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:1460:97c3:c17a:e33a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8f9e7d83-6285-4de2-a008-54ef7545a97b, clickElement {id=3807eed0-6bcf-4d5a-8bfb-0c86cf19353d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220313140707, moz:debuggerAddress: localhost:63221, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2680, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:63221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (8f9e7d83-6285-4de2-a008-54ef7545a97b)] -> id: password]
+Session ID: 8f9e7d83-6285-4de2-a008-54ef7545a97b
+19:14:13  INFO  manager.MyListener - **************
+19:14:13  INFO  manager.MyListener - Screen with throwable  ---> src/test/screenshots/screenshot-853.png
